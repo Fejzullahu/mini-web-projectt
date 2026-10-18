@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sq">
+    <head>
+        <meta charset="UTF-8">
+        <tittle>SPORTI IM I PREFERUAR!</tittle>
+        <style>
+            body{
+                background-color:pink ;
+                font-family: Arial;
+                text-align: center;
+
+            }
+           h1 {
+    color: white;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px darkblue;
+    background-color: rosybrown;
+    padding: 20px;
+    border-radius: 15px;
+}
+            p{
+                font-size: 19px;
+            }
+            button{
+                background-color:rosybrown;
+                color: white;
+                padding: 10px;
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+<h1>VOLLEYBALL</h1>
+<img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1"
+     width="250"
+     alt="Top volejbolli">
+  <h2>Sporti im i preferuar!</h2>
+  <p>Volejbolli është një sport shumë interesant.</p>
+  <p>Ky sport na mëson bashkëpunimin dhe disiplinën</p>
+  <p>Dy ekipe luajnë me top, duke e kaluar atë mbi rrjetë.</p>
+     
+   <h3>Pse më pëlqen volejbolli?</h3>
+
+  <ul style="display: inline-block; text-align: left;">
+   <li>Është argëtues</li>
+    <li>Na mban aktivë</li>
+    <li>Na mëson të punojmë në ekip</li>
+
+    </ul>
+        <br>><br>
+        
+    <button onclick="mesazhi()">Kliko këtu</button>
+
+    <p id="rezultati"></p>
+
+    <script>
+        function mesazhi() {
+            document.getElementById("rezultati").innerHTML =
+            "Volejbolli është fantastik!";
+        }
+    </script>
+
+</body>
+</html>
